@@ -1,0 +1,125 @@
+body {
+  font-size: 70%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff url(assets/cubes.png);
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+}
+
+h2 {
+  color: greenyellow;
+  font-size: 2em;
+  margin: 0.5em 0 0.35em 0;
+  padding: 0;
+}
+
+ol {
+  font-size: 1.2em;
+  margin: 0 0 0 1em;
+  padding: 0 0 0 1em;
+}
+
+ol li {
+  margin: 0;
+  padding: 0 0 0 0.2em;
+}
+
+a,
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: #333;
+}
+
+hr {
+  padding: 0;
+  margin: 1.5em 1.5em 0.75em 0.5em;
+}
+header {
+  padding: 2.5em 0 0.5em;
+  margin: 0 0 2em;
+}
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: darkslategray;
+  font-size: 7.5em;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+header h2 {
+  font-weight: 300;
+  font-size: 3.8em;
+  color: #2ba967;
+  margin: -0.4em 0 0 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+nav {
+  color: #000;
+  font-size: 1.7em;
+  letter-spacing: 0.04em;
+  padding: 1em 1em 0.5em;
+  margin: 1em 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+footer {
+  background-color: transparent;
+  height: 25px;
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  padding: 1.5em 2em;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+footer ul li::before {
+  content: "| ";
+  padding-right: 0.7em;
+}
+footer a,
+footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
